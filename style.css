@@ -1,0 +1,80 @@
+::-webkit-scrollbar{
+    display: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+
+
+/* scroll overlay */
+
+.scrollOverlay {
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: scroll;
+}
+.scrollContent{
+    height: 400vh;
+    width: 100%;
+}
+
+
+
+
+/* main */
+.main{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/153/568/original/cavern-background-free-vector.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.content{
+    height: 250vh;
+    width: 60vw;
+    margin-top: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.face{
+    border-radius: 40px;
+    background-color: rgb(39, 39, 39);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.eyes{
+    padding: 10vh 10% 0 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.mouth{
+    transform: scale(.8);
+    margin-top: 15vh;
+}
+.figurebody{
+    height: 100vh;
+    width: 70%;
+    background-color: rgb(31, 31, 31);
+}
